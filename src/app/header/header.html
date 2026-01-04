@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="container">
+    <h1 class="logo">My Angular Site</h1>
+
+    <nav class="nav-links">
+      <a 
+        routerLink="/" 
+        routerLinkActive="active" 
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        Home
+      </a>
+      <a 
+        routerLink="/projects" 
+        routerLinkActive="active"
+      >
+        Projects
+      </a>
+      <a 
+        routerLink="/contact" 
+        routerLinkActive="active"
+      >
+        Contact
+      </a>
+    </nav>
+  </div>
+</header>
